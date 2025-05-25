@@ -17,7 +17,7 @@ public class TestSelenium16_MiniProject2_AddExtension {
 
     @Description("Mini Project #2 Add Extension")
     @Test
-    public void test_AddExtension() throws Exception{
+    public void test_AddExtension() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--window-size=1920,1080");
@@ -25,9 +25,5 @@ public class TestSelenium16_MiniProject2_AddExtension {
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://www.youtube.com/watch?v=BwTSxsAqlEc");
         driver.quit();
-
-
-
-
     }
 }
