@@ -1,0 +1,22 @@
+﻿
+
+https://awesomeqa.com/hr/web/index.php/auth/login
+UserName = //input[@name="username"]
+
+Password = //input[@name="password"]
+
+Login button = //button[contains(text(),login-button)]
+
+
+
+https://vwo.com/free-trial/
+
+Business Email -- //input[@id="page-v1-step1-email"]
+
+check box -- //input[@data-qa="page-free-trial-step1-gdpr-consent-checkbox"]
+
+Create Free trial Button - //button[text()="Create a Free Trial Account"]
+
+tagname - //div[text()="A value for this field is required."]
+
+Title - //h1[normalize-space()="Sign up for a full-featured trial"]
