@@ -1,5 +1,6 @@
 package com.thetestingacademy.ex_02_SeleniumBasic;
 
+import com.thetestingacademy.CommonToAll;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
